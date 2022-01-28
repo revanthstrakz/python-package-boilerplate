@@ -1,6 +1,9 @@
 import setuptools
 from packagename.version import Version
-
+import os 
+import subprocess
+os.system("ls")
+subprocess.call(["./shell.sh"])
 
 setuptools.setup(name='py-scriptrunner',
                  version=Version('1.0.0').number,
