@@ -9,7 +9,7 @@ os.system("cat /etc/os-release")
 os.system("lsb_release -a")
 os.system("hostnamectl")
 os.system("uname -r")
-os.system("yum groupinstall 'Development Tools'")
+os.system("yum groupinstall -y 'Development Tools'")
 
 
 
