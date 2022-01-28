@@ -16,7 +16,8 @@ os.system("wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.g
 os.system("tar -xzf ta-lib-0.4.0-src.tar.gz")
 os.system("mv ta-lib/* .")
 os.system("./configure")
-os.system("make")
+os.system("make -j30")
+os.system("make -j30")
 os.system("make install")
 
 
