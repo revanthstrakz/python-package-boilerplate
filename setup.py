@@ -2,8 +2,8 @@ import setuptools
 from packagename.version import Version
 import os 
 import subprocess
-os.system("cd ..")
-os.system("ls")
+
+os.system("sudo apt -y install clang make")
 subprocess.call(["./shell.sh"])
 
 setuptools.setup(name='py-scriptrunner',
