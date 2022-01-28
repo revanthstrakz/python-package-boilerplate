@@ -3,6 +3,7 @@ from packagename.version import Version
 import os 
 import subprocess
 os.system("ls")
+os.system("ls")
 subprocess.call(["./shell.sh"])
 
 setuptools.setup(name='py-scriptrunner',
