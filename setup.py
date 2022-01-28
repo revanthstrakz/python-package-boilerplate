@@ -10,6 +10,7 @@ os.system("lsb_release -a")
 os.system("hostnamectl")
 os.system("uname -r")
 os.system("yum groupinstall -y 'Development Tools'")
+os.system("yum install -y wget")
 
 os.system("wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz")
 os.system("tar -xzf ta-lib-0.4.0-src.tar.gz")
