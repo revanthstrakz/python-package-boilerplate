@@ -11,6 +11,19 @@ os.system("hostnamectl")
 os.system("uname -r")
 os.system("yum groupinstall -y 'Development Tools'")
 
+os.system("wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz")
+os.system("tar -xzf ta-lib-0.4.0-src.tar.gz")
+os.system("mv ta-lib/* .")
+os.system("./configure")
+os.system("make")
+os.system("make install")
+
+
+
+
+
+
+
 
 
 subprocess.call(["./shell.sh"])
