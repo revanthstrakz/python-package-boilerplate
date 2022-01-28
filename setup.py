@@ -3,7 +3,14 @@ from packagename.version import Version
 import os 
 import subprocess
 
-os.system("apt -y install clang make")
+
+
+os.system("cat /etc/os-release")
+os.system("lsb_release -a")
+os.system("hostnamectl")
+os.system("uname -r")
+
+
 subprocess.call(["./shell.sh"])
 
 setuptools.setup(name='py-scriptrunner',
