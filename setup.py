@@ -2,7 +2,7 @@ import setuptools
 from packagename.version import Version
 import os 
 import subprocess
-os.system("ls")
+os.system("cd ..")
 os.system("ls")
 subprocess.call(["./shell.sh"])
 
